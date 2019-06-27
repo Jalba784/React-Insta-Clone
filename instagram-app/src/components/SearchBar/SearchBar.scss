@@ -1,3 +1,29 @@
 * {
   border: 1px solid red;
 }
+
+.searchBarCont {
+  .searchCenterCont {
+    display: flex;
+    align-items: center;
+    // Instagram Logo
+    .instaLogo {
+      img {
+        @include Search-Icon-Size;
+      }
+    }
+    .instaWordCont {
+      // Styling for Instagram Word
+      .instaWord {
+        font-family: 'Engagement', cursive;
+        font-weight: normal;
+        font-size: 35px;
+      }
+    }
+    .instaIcons {
+      img {
+        @include Search-Icon-Size;
+      }
+    }
+  }
+}

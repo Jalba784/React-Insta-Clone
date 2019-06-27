@@ -1,5 +1,25 @@
+/* Mixins */
+/* SearchBar Icon Sizing */
 * {
   border: 1px solid red;
+}
+
+.searchBarCont .searchCenterCont {
+  display: flex;
+  align-items: center;
+}
+.searchBarCont .searchCenterCont .instaLogo img {
+  width: 28px;
+  height: 28px;
+}
+.searchBarCont .searchCenterCont .instaWordCont .instaWord {
+  font-family: "Engagement", cursive;
+  font-weight: normal;
+  font-size: 35px;
+}
+.searchBarCont .searchCenterCont .instaIcons img {
+  width: 28px;
+  height: 28px;
 }
 
 /*# sourceMappingURL=App.css.map */
