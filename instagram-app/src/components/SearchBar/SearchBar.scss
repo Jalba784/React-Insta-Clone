@@ -1,25 +1,41 @@
 * {
   border: 1px solid red;
 }
+/* Search Bar Styling */
 
 .searchBarCont {
   .searchCenterCont {
-    display: flex;
-    align-items: center;
-    // Instagram Logo
-    .instaLogo {
-      img {
-        @include Search-Icon-Size;
+    @include Centered-Items;
+    justify-content: space-evenly;
+    .logoAndWord {
+      @include Centered-Items;
+      //** Instagram Logo
+      .instaLogo {
+        img {
+          @include Search-Icon-Size;
+        }
+      }
+      .instaWordCont {
+        //** Styling for Instagram Word
+        .instaWord {
+          font-family: $instagram-cursive;
+          font-weight: normal;
+          font-size: 35px;
+        }
       }
     }
-    .instaWordCont {
-      // Styling for Instagram Word
-      .instaWord {
-        font-family: 'Engagement', cursive;
-        font-weight: normal;
-        font-size: 35px;
+
+    //** Search Box
+    .instaSearch {
+      input {
+        width: 215px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px;
       }
     }
+    //** Icons
     .instaIcons {
       img {
         @include Search-Icon-Size;

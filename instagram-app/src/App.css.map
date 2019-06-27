@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["scss/mixins.scss","components/SearchBar/SearchBar.scss"],"names":[],"mappings":"AAAA;AAEA;ACFA;EACE;;;AAIA;EACE;EACA;;AAGE;EDNJ;EACA;;ACWI;EACE;EACA;EACA;;AAIF;EDnBJ;EACA","file":"App.css"}
+{"version":3,"sourceRoot":"","sources":["scss/variables.scss","scss/mixins.scss","components/SearchBar/SearchBar.scss"],"names":[],"mappings":"AAAA;ACAA;AAEA;ACFA;EACE;;;AAEF;AAGE;EDGA;EACA;ECFE;;AACA;EDAF;EACA;;ACGM;EDTN;EACA;;ACcM;EACE,aFlBU;EEmBV;EACA;;AAOJ;EACE;EACA;EACA;EACA;EACA;;AAKF;EDnCJ;EACA","file":"App.css"}

@@ -1,21 +1,35 @@
+/* Variables */
 /* Mixins */
 /* SearchBar Icon Sizing */
 * {
   border: 1px solid red;
 }
 
+/* Search Bar Styling */
 .searchBarCont .searchCenterCont {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
-.searchBarCont .searchCenterCont .instaLogo img {
+.searchBarCont .searchCenterCont .logoAndWord {
+  display: flex;
+  align-items: center;
+}
+.searchBarCont .searchCenterCont .logoAndWord .instaLogo img {
   width: 28px;
   height: 28px;
 }
-.searchBarCont .searchCenterCont .instaWordCont .instaWord {
+.searchBarCont .searchCenterCont .logoAndWord .instaWordCont .instaWord {
   font-family: "Engagement", cursive;
   font-weight: normal;
   font-size: 35px;
+}
+.searchBarCont .searchCenterCont .instaSearch input {
+  width: 215px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
 }
 .searchBarCont .searchCenterCont .instaIcons img {
   width: 28px;
