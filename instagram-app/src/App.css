@@ -1,10 +1,6 @@
 /* Variables */
 /* Mixins */
 /* SearchBar Icon Sizing */
-* {
-  border: 1px solid red;
-}
-
 /* Search Bar Styling */
 .searchBarCont .searchCenterCont {
   display: flex;
@@ -18,11 +14,14 @@
 .searchBarCont .searchCenterCont .logoAndWord .instaLogo img {
   width: 28px;
   height: 28px;
+  padding-right: 10px;
+  border-right: 1px solid black;
 }
 .searchBarCont .searchCenterCont .logoAndWord .instaWordCont .instaWord {
   font-family: "Engagement", cursive;
   font-weight: normal;
   font-size: 35px;
+  padding-left: 10px;
 }
 .searchBarCont .searchCenterCont .instaSearch input {
   width: 215px;
@@ -30,10 +29,13 @@
   text-align: center;
   font-size: 15px;
   border-radius: 5px;
+  border: 1px solid lightgray;
 }
 .searchBarCont .searchCenterCont .instaIcons img {
   width: 28px;
   height: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=App.css.map */

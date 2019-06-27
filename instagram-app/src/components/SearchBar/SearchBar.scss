@@ -1,6 +1,8 @@
-* {
-  border: 1px solid red;
-}
+//* {
+//  border: 1px solid red;
+//}
+
+
 /* Search Bar Styling */
 
 .searchBarCont {
@@ -13,6 +15,8 @@
       .instaLogo {
         img {
           @include Search-Icon-Size;
+          padding-right: 10px;
+          border-right: 1px solid black;
         }
       }
       .instaWordCont {
@@ -21,6 +25,7 @@
           font-family: $instagram-cursive;
           font-weight: normal;
           font-size: 35px;
+          padding-left: 10px;
         }
       }
     }
@@ -33,12 +38,15 @@
         text-align: center;
         font-size: 15px;
         border-radius: 5px;
+        border: 1px solid lightgray;
       }
     }
     //** Icons
     .instaIcons {
       img {
         @include Search-Icon-Size;
+        margin-left: 10px;
+        margin-right: 10px;
       }
     }
   }
