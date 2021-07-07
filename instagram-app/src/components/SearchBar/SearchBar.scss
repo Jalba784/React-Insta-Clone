@@ -1,0 +1,48 @@
+/* Search Bar Styling */
+
+.searchBarCont {
+  .searchCenterCont {
+    @include Centered-Items;
+    justify-content: space-evenly;
+    .logoAndWord {
+      @include Centered-Items;
+      //** Instagram Logo
+      .instaLogo {
+        img {
+          @include Search-Icon-Size;
+          padding-right: 10px;
+          border-right: 1px solid black;
+        }
+      }
+      .instaWordCont {
+        //** Styling for Instagram Word
+        .instaWord {
+          font-family: $instagram-cursive;
+          font-weight: normal;
+          font-size: 35px;
+          padding-left: 10px;
+        }
+      }
+    }
+
+    //** Search Box
+    .instaSearch {
+      input {
+        width: 215px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+      }
+    }
+    //** Icons
+    .instaIcons {
+      img {
+        @include Search-Icon-Size;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
